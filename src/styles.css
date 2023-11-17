@@ -1,0 +1,29 @@
+body {
+  height: 500vh;
+  margin: 0;
+  overflow: auto;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.vt {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border : 1px dashed black;
+}
+
+.hl {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border : 1px dashed black;
+}
